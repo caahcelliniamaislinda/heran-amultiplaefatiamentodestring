@@ -1,0 +1,13 @@
+Class Document:
+    def show(self):
+        return "showing document base"
+Class Printable:
+    def print(self)
+        return "print document"
+Class Editable:
+    def edit(self):
+        return "edit document"  
+Class PdfDocuments(Document, Printable, Editable):
+    pass        
+
+

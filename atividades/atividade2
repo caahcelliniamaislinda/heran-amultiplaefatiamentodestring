@@ -1,0 +1,5 @@
+txt = "Hello, welcome to my word"
+posicao = txt.find("welcome")
+comprimento = len(text)
+print("A palavra welcome está na posicao:", posicao)
+print("A variável txt tem", comprimento, "letras")
